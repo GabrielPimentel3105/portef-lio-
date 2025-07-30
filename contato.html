@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre Mim</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="cont">
+    <h1>Fale comigo</h1>
+    <form>
+      <label>Nome</label>
+      <input type="text" name="nome" id="nome">
+      <p id="avisonome"></p>
+      <label>E-mail</label>
+      <input type="email" id="email" name="email">
+      <p id="avisoemail"></p>
+      <label>Assunto</label>
+      <input type="text" id="assunto" name="assunto">
+      <p id="avisoassunto"></p>
+      <label>Mensagem</label>
+      <textarea id="mensagem" name="mensagem"></textarea>
+      <p id="mensagem"></p>
+      <div id="resp" class="hidden">
+        <div class="meio">
+            <p id="msg"></p>
+            
+        </div>
+    </div>
+      <button type="submit" id="bt">Enviar Mensagem</button>
+    </form>
+  </main>
+  <br><br><br>
+  <footer>
+      <p>&copy; 2025 Gabriel Pimentel Peres</p>
+  </footer> 
+  <script src="js/cleave.js/cleave.min.js"></script>
+  <script src="js/cleave.js/cleave-phone.br.js"></script>
+  <script src="js/script.js"></script>
+</body>

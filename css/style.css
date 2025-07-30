@@ -1,0 +1,188 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+  
+header{
+  background-color: #700808;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+  
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+  
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+nav a:hover{
+  text-decoration: underline;
+}
+  
+.boas-vindas{
+  text-align: center;
+  padding: 40px 20px;
+}
+  
+.conteudo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Para se adaptar em telas menores */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.foto-perfil{
+    width: 200px;
+    height: auto;
+    border-radius: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto{
+  max-width: 500px;
+  font-size: 1.1em;
+  color:#000000
+}
+
+footer{
+  background-color: #700808;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Seção de projetos */
+.projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+  
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #333;
+  }
+
+.card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.tecnologias {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #444;
+}
+
+nav a.ativo {
+  text-decoration: underline;
+  color: #f76969;
+}
+
+.meus{
+  text-align: center;
+  justify-content: space-around;
+}
+
+.imagem-projeto {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.sobre{
+  margin: 100px;
+  padding: 60px 0;
+}
+
+.cont{
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #343638;
+}
